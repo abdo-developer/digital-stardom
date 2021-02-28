@@ -1,0 +1,263 @@
+// Import File Sass 
+
+@import'./image';
+@import './color';
+@import './fonts';
+
+
+// Style Files
+
+body {
+    font-family: $font-content;
+    color: $color-black;
+    text-align: right !important;
+}
+
+header.top_header {
+    background-image: url(../images/header_contact.svg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 0;
+}
+
+header.top_header nav ul {
+    padding: 0;
+    text-align: center;
+}
+
+header.top_header nav ul li a {
+    color: $color-white;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+header.top_header nav ul li.more-menu a {
+    background-color: $color-light-green;
+    margin-right: 8px;
+    color: $color-black;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+header.top_header nav ul li.more-menu a:hover,
+header.top_header nav ul li.more-menu a:focus,
+header.top_header nav ul li.more-menu a:active {
+    color: $color-base;
+}
+
+header.top_header nav ul li a:hover,
+header.top_header nav ul li a:active,
+header.top_header nav ul li a:focus {
+    color: $color-beige;
+}
+
+header.top_header .image-pro img {
+    margin: 55px 0 100px 0;
+}
+
+header.top_header .title h3 {
+    font-family: $font-heading;
+    margin: 40px 0;
+    font-size: 32px;
+    color: $color-beige;
+}
+
+header.top_header .text-marketing p {
+    color: $color-white;
+    font-size: 18px;
+}
+
+section.inesrt-form .circle ul {
+    padding: 0;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+section.inesrt-form .circle ul li {
+    margin-right: 0 !important;
+    margin-left: 3px;
+}
+
+section.inesrt-form .circle ul li .cirlce-one {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: $color-light-green;
+    margin: 0 auto;
+}
+
+section.inesrt-form .circle ul li .cirlce-two {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: $color-base-light;
+}
+
+section.inesrt-form .circle ul li .cirlce-three {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: $color-base;
+}
+
+section.inesrt-form .information-company {
+    margin-top: 50px;
+}
+
+section.inesrt-form .information-company .line-left {
+    border-left: 1px solid $color-gray;
+}
+
+section.inesrt-form .information-company .adress p {
+    color: $color-base;
+    font-weight: bold;
+}
+
+section.inesrt-form form {
+    margin-top: 60px;
+}
+
+section.inesrt-form .form-group svg {
+    font-size: 20px;
+    margin-left: 4px;
+    color: $color-base;
+}
+
+section.inesrt-form .form-group label {
+    font-weight: 600;
+}
+
+section.inesrt-form .form-group input,
+section.inesrt-form .form-group textarea {
+    background-color: $color-input;
+    border: none;
+    border-radius: 8px;
+}
+
+section.inesrt-form .form-group button.btn-custom {
+    background-color: $color-fixed;
+    border-radius: 25px;
+    color: $color-white;
+    font-weight: 500;
+    box-shadow: $color-gray-rgba 6px 2px 16px 0px, $color-base-light -6px -2px 16px 0px;
+    transition: all 0.5s ease-in-out;
+}
+
+section.inesrt-form .form-group button.btn-custom:hover,
+section.inesrt-form .form-group button.btn-custom:active,
+section.inesrt-form .form-group button.btn-custom:focus {
+    background-color: $color-base;
+}
+
+section.inesrt-form .image-pro img {
+    margin-top: 60px;
+}
+
+// 
+
+section.Contact-us .contact-us-now {
+    background-color: $color-white;
+    box-shadow: $color-gray-rgba 6px 2px 16px 0px, $color-gray-rgba -6px -2px 16px 0px;
+    padding: 25px 50px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+section.Contact-us .contact-us-now .title h4 {
+    color: $color-fixed;
+    font-size: 26px
+}
+
+section.Contact-us .contact-us-now .contect-now a {
+    text-decoration: none;
+    background-color: $color-fixed;
+    border-radius: 25px;
+    box-shadow: $color-gray-rgba 6px 2px 16px 0px, $color-base-light -6px -2px 16px 0px;
+    padding: 12px 70px;
+    color: $color-white;
+    line-height: 7;
+    transition: all 0.5s ease-in-out;
+}
+
+section.Contact-us .contact-us-now .contect-now a:hover,
+section.Contact-us .contact-us-now .contect-now a:focus section.Contact-us .contact-us-now .contect-now a:active {
+    background-color: $color-base;
+}
+
+footer.footer-page {
+    background-image: url(../images/footer_bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 10px 0 2px 0;
+    margin-bottom: 0;
+}
+
+footer.footer-page .title h3 {
+    color: $color-white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer.footer-page .informations {
+    margin: 8px 0;
+}
+
+footer.footer-page .informations label svg {
+    color: $color-white;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+footer.footer-page .informations span {
+    font-weight: 500;
+    color: $color-white;
+}
+
+footer.footer-page ul.link-footer {
+    padding: 0;
+}
+
+footer.footer-page ul li a.nav-link {
+    padding: .5rem 0 !important;
+    margin-left: 30px;
+    color: $color-white;
+    transition: all 0.3s ease-in-out;
+}
+
+footer.footer-page ul li a.nav-link:hover,
+footer.footer-page ul li a.nav-link:active,
+footer.footer-page ul li a.nav-link:focus {
+    color: $color-beige;
+}
+
+footer.footer-page .icon-social-media ul {
+    padding: 0;
+    margin: 0 60px;
+}
+
+footer.footer-page .icon-social-media ul li {
+    margin-right: 0 !important;
+    margin-left: 13px;
+}
+
+footer.footer-page .icon-social-media ul li a {
+    text-decoration: none;
+}
+
+footer.footer-page .icon-social-media ul li a svg {
+    color: $color-white;
+    font-size: 26px;
+}
+
+footer.footer-page .line-bottom {
+    border-bottom: 1px solid $color-white;
+}
+
+footer.footer-page .copyright p.copyright {
+    margin: 20px 0;
+    color: $color-white;
+    font-size: 18px;
+}

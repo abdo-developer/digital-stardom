@@ -1,0 +1,63 @@
+// Add Fonts
+
+@font-face {
+    src: url(../fonts/JFFlatregular.ttf);
+    font-family: 'ar-content';
+    font-size: 16px;
+}
+
+@font-face {
+    src: url(../fonts/Cairo-Bold.ttf);
+    font-family: 'ar-heading';
+}
+
+// Var Fonts
+
+$font-content: 'ar-content';
+$font-heading: 'ar-heading';
+
+// Heading and title
+
+h1 {
+    $font-heading: 'ar-heading';
+    font-size: 28px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'ar-heading';
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'ar-heading';
+    font-size: 22px;
+    font-weight: bold;
+}
+
+h4 {
+    font-family: 'ar-heading';
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h5 {
+    font-family: 'ar-heading';
+    font-size: 16px;
+    font-weight: bold;
+}
+
+h6 {
+    font-family: 'ar-heading';
+    font-size: 14px;
+    font-weight: bold;
+}
+
+// Base Text and paragraph's
+
+p,
+span {
+    color: $color-black;
+    font-family: $font-content;
+}

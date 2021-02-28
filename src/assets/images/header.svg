@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#838def"/>
+      <stop offset="1" stop-color="#453ecc"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="1920" height="1080" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Groupe_de_masques_1" data-name="Groupe de masques 1" clip-path="url(#clip-path)">
+    <path id="Tracé_1" data-name="Tracé 1" d="M1928,804.911c22.486-8.092,44.972-202.3,505.936-103.037S3074.789,788.188,3339,736.4s410.371,33.447,466.586,68.511S4007.96,978.078,4007.96,978.078V-144H1928Z" transform="translate(-2008.107 77.107)" fill="#35e7b3"/>
+    <path id="Tracé_2" data-name="Tracé 2" d="M1928,804.911c22.486-8.092,44.972-202.3,505.936-103.037S3074.789,788.188,3339,736.4s410.371,33.447,466.586,68.511S4007.96,978.078,4007.96,978.078V-144H1928Z" transform="translate(-2008.107 51.213)" stroke="#707070" stroke-width="1" fill="url(#linear-gradient)"/>
+    <path id="Tracé_3" data-name="Tracé 3" d="M1928,804.911c22.486-8.092,44.972-202.3,505.936-103.037S3074.789,788.188,3339,736.4s410.371,33.447,466.586,68.511S4007.96,978.078,4007.96,978.078V-144H1928Z" transform="translate(-2008.107 -15.68)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
